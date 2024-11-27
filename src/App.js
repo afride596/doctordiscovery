@@ -5,7 +5,7 @@ import Specialization from "./components/Specialization";
 
 function App() {
   return (
-    <div className="bg-[#f5eeca]  h-[100vh] w-[100vw]">
+    <div className="bg-[#f7fee7]  h-[100vh] w-[100vw]">
       <Header />
       <SearchForm />
       <Specialization />

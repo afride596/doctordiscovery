@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { Link } from "react-router";
 
 const SearchForm = () => {
   const { register, handleSubmit } = useForm();
@@ -32,9 +33,12 @@ const SearchForm = () => {
             </select>
           </div>
           <div className="flex justify-center w-[480px] items-center">
-            <button className="bg-yellow-300 w-full p-2 rounded-md">
-              Search Doctors
-            </button>
+            <Link
+              className="bg-yellow-300 w-full p-2 rounded-md flex justify-center"
+              to="/search"
+            >
+              <button>Search Doctors</button>
+            </Link>
           </div>
         </form>
       </div>
