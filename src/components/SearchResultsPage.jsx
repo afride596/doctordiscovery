@@ -8,16 +8,36 @@ import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 import { useQuery } from "@tanstack/react-query";
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 
 const SearchResultsPage = () => {
+  const { search } = useLocation();
+  const query = new URLSearchParams(search);
+  const locationfilter = query.get("location");
+  const specialtyfilter = query.get("specialty");
   const { data, error, isLoading } = useQuery({
     queryKey: ["doctors"], // The unique key for the query
     queryFn: fetchDoctor, // The function that fetches the data
   });
+  //filter data based on location and specialty
 
   if (isLoading) return <div>Loading...</div>;
   if (error) return <div>Error: {error.message}</div>;
+  const filteredData = data.filter((doctor) => {
+    if (locationfilter && specialtyfilter) {
+      return (
+        doctor.location === locationfilter &&
+        doctor.specialty === specialtyfilter
+      );
+    }
+    if (locationfilter) {
+      return doctor.location === locationfilter;
+    }
+    if (specialtyfilter) {
+      return doctor.specialty === specialtyfilter;
+    }
+  });
+  //   console.log(filteredData);
   const {
     availableSlots,
     distance,
@@ -29,7 +49,7 @@ const SearchResultsPage = () => {
     ratings,
     specialty,
   } = data;
-  console.log(data);
+  //   console.log(data);
 
   return (
     <div className=" h-[100%] flex-col w-[100%] bg-[#f7fee7] flex items-center ">
@@ -47,7 +67,7 @@ const SearchResultsPage = () => {
             Doctors near Current Location
           </h1>
           <span className="font-medium text-base text-[#777474]">
-            {data.length} doctors found{" "}
+            {filteredData.length} doctors found{" "}
           </span>
         </div>
         <div>
@@ -57,8 +77,11 @@ const SearchResultsPage = () => {
         </div>
       </div>
       {/* Search Results */}
-      {data.map((doctor) => (
-        <div className=" border w-[50vw] mb-4 gap-[200px] justify-center items-center px-16  py-10 flex bg-white rounded-md shadow-xl">
+      {filteredData.map((doctor) => (
+        <div
+          key={doctor.id}
+          className=" border w-[50vw] mb-4 gap-[200px] justify-center items-center px-16  py-10 flex bg-white rounded-md shadow-xl"
+        >
           <div>
             <h1 className="font-semibold text-xl">{doctor.name}</h1>
             <p>{doctor.specialty}</p>

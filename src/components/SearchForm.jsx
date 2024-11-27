@@ -1,11 +1,31 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
 
 const SearchForm = () => {
+  const navigate = useNavigate();
   const { register, handleSubmit } = useForm();
-  const onsubmit = () => {
-    console.log("Form submitted");
+  const locations = [
+    "Hyderabad",
+    "Bangalore",
+    "Delhi",
+    "Mumbai",
+    "Pune",
+    "Jaipur",
+    "Kolkata",
+  ];
+  const specialties = [
+    "Cardiologist",
+    "Gynecologist",
+    "Orthopedic",
+    "ENT Specialist",
+    "Dermatologist",
+    "Neurologist",
+    "Pediatrician",
+  ];
+  const onsubmit = (data) => {
+    navigate(`/search?location=${data.location}&specialty=${data.Specialization}`);
+    // console.log("Form submitted", data);
   };
   return (
     <div className="flex justify-center items-center ">
@@ -15,30 +35,31 @@ const SearchForm = () => {
           className="flex flex-col gap-3 justify-center items-center relative top-5"
         >
           <div className="flex justify-center items-center w-[480px] ">
-            <input
-              className="w-full px-5 py-2 rounded-md border shadow-sm"
-              type="text"
-              placeholder="current Location"
-            />
+            <select
+              className="w-full px-5 py-2 rounded-md border"
+              {...register("location")}
+            >
+              <option value="">Select Location</option>
+              {locations.map((location) => (
+                <option value={location}>{location}</option>
+              ))}
+            </select>
           </div>
           <div className="flex justify-center items-center w-[480px]">
             <select
               className="w-full px-5 py-2 rounded-md border"
-              {...register("category")}
+              {...register("Specialization")}
             >
-              <option value="">prdeaitricvan</option>
-              <option value="">Option 2</option>
-              <option value="">Option 3</option>
-              <option value="">Option 4</option>
+              <option value="">Select Specialization</option>
+              {specialties.map((specialtie) => (
+                <option value={specialtie}>{specialtie}</option>
+              ))}
             </select>
           </div>
           <div className="flex justify-center w-[480px] items-center">
-            <Link
-              className="bg-yellow-300 w-full p-2 rounded-md flex justify-center"
-              to="/search"
-            >
-              <button>Search Doctors</button>
-            </Link>
+            <button className="bg-yellow-300 w-full p-2 rounded-md flex justify-center">
+              Search Doctors
+            </button>
           </div>
         </form>
       </div>
