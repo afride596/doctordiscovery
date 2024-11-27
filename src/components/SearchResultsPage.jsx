@@ -51,7 +51,7 @@ const SearchResultsPage = () => {
           </span>
         </div>
         <div>
-          <button className="border px-5 rounded-md text-lg shadow-2xl py-1">
+          <button className="border px-5 rounded-md text-lg shadow-2xl py-1 bg-white ">
             <FilterAltIcon /> Filter
           </button>
         </div>
