@@ -1,0 +1,322 @@
+[
+  {
+    "id": "0d3c2a69-63f3-465e-9279-9e154b13bb3d",
+    "name": "Dr. Josiane Halvorson",
+    "specialty": "Cardiologist",
+    "location": "Hyderabad, Maharashtra",
+    "distance": 6,
+    "queueStatus": 9,
+    "estimatedWaitTime": "14 mins",
+    "ratings": 3.0758665688170876,
+    "availableSlots": [
+      "07:08 pm",
+      "05:01 pm",
+      "06:23 am",
+      "09:53 pm"
+    ]
+  },
+  {
+    "id": "f71e4665-7169-4367-8348-fbe20061dbd7",
+    "name": "Dr. Mertie Reichel",
+    "specialty": "Gynecologist",
+    "location": "Bangalore, Maharashtra",
+    "distance": 12,
+    "queueStatus": 3,
+    "estimatedWaitTime": "5 mins",
+    "ratings": 3.2418079427236424,
+    "availableSlots": [
+      "01:39 pm",
+      "09:25 am",
+      "07:54 pm",
+      "02:48 am"
+    ]
+  },
+  {
+    "id": "059a393a-12bc-43c8-8871-1524618abdf8",
+    "name": "Dr. Tierra Mueller",
+    "specialty": "Cardiologist",
+    "location": "Delhi, Tamil Nadu",
+    "distance": 7,
+    "queueStatus": 7,
+    "estimatedWaitTime": "7 mins",
+    "ratings": 3.1110108431590655,
+    "availableSlots": [
+      "04:40 am",
+      "01:19 pm",
+      "02:02 pm",
+      "11:04 pm"
+    ]
+  },
+  {
+    "id": "2920ba7c-3a99-43a9-9da6-40d57c6a75e9",
+    "name": "Dr. Salma Bode",
+    "specialty": "Gynecologist",
+    "location": "Delhi, Karnataka",
+    "distance": 10,
+    "queueStatus": 6,
+    "estimatedWaitTime": "30 mins",
+    "ratings": 4.108765488907103,
+    "availableSlots": [
+      "05:45 am",
+      "01:53 pm",
+      "05:23 am",
+      "07:40 pm"
+    ]
+  },
+  {
+    "id": "32378370-b155-40c7-8085-d4e3281c3fb3",
+    "name": "Dr. Ettie Mann-Dibbert",
+    "specialty": "Orthopedic",
+    "location": "Delhi, Delhi NCR",
+    "distance": 6,
+    "queueStatus": 10,
+    "estimatedWaitTime": "24 mins",
+    "ratings": 3.6805072559346272,
+    "availableSlots": [
+      "12:46 pm",
+      "10:54 pm",
+      "04:23 pm",
+      "02:59 pm"
+    ]
+  },
+  {
+    "id": "eb94d10d-cadf-40cc-af7e-bc99a9e8e9c5",
+    "name": "Dr. Juvenal Dickinson",
+    "specialty": "ENT Specialist",
+    "location": "Delhi, Karnataka",
+    "distance": 6,
+    "queueStatus": 2,
+    "estimatedWaitTime": "18 mins",
+    "ratings": 4.339388948724258,
+    "availableSlots": [
+      "02:06 pm",
+      "01:01 am",
+      "09:00 pm",
+      "07:14 pm"
+    ]
+  },
+  {
+    "id": "79da49a1-4c71-44f8-9cf0-0e50306278bb",
+    "name": "Dr. Maybell Reichel",
+    "specialty": "Dermatologist",
+    "location": "Mumbai, Delhi NCR",
+    "distance": 10,
+    "queueStatus": 9,
+    "estimatedWaitTime": "30 mins",
+    "ratings": 4.652145091541306,
+    "availableSlots": [
+      "08:58 pm",
+      "12:35 pm",
+      "03:02 am",
+      "08:03 pm"
+    ]
+  },
+  {
+    "id": "ec5222fe-4a12-4ca6-ad19-67e7cc1def42",
+    "name": "Dr. Aurelia Keebler",
+    "specialty": "Neurologist",
+    "location": "Pune, Maharashtra",
+    "distance": 3,
+    "queueStatus": 3,
+    "estimatedWaitTime": "6 mins",
+    "ratings": 4.373358262313638,
+    "availableSlots": [
+      "11:30 am",
+      "10:06 pm",
+      "11:43 pm",
+      "09:28 pm"
+    ]
+  },
+  {
+    "id": "12e2b6e9-6acc-4ce5-83b4-408b7cae73c0",
+    "name": "Dr. Carli Conn",
+    "specialty": "ENT Specialist",
+    "location": "Jaipur, Tamil Nadu",
+    "distance": 8,
+    "queueStatus": 9,
+    "estimatedWaitTime": "25 mins",
+    "ratings": 3.1475077738169137,
+    "availableSlots": [
+      "05:02 am",
+      "02:27 pm",
+      "02:35 am",
+      "07:30 am"
+    ]
+  },
+  {
+    "id": "9d9839d2-f0b1-4f7e-ad95-537157a5bd3f",
+    "name": "Dr. Justine Considine-Heaney",
+    "specialty": "Neurologist",
+    "location": "Hyderabad, Telangana",
+    "distance": 2,
+    "queueStatus": 6,
+    "estimatedWaitTime": "18 mins",
+    "ratings": 3.7580277837175595,
+    "availableSlots": [
+      "01:49 am",
+      "11:58 pm",
+      "04:19 pm",
+      "07:03 pm"
+    ]
+  },
+  {
+    "id": "4a5720ce-a2dc-44ce-826b-a88bd498c745",
+    "name": "Dr. Reggie McDermott",
+    "specialty": "Pediatrician",
+    "location": "Hyderabad, Gujarat",
+    "distance": 8,
+    "queueStatus": 8,
+    "estimatedWaitTime": "30 mins",
+    "ratings": 3.6644194155399834,
+    "availableSlots": [
+      "01:36 pm",
+      "09:43 pm",
+      "07:57 am",
+      "02:15 pm"
+    ]
+  },
+  {
+    "id": "7675d7a5-6888-4b97-ad22-2d6786a947e3",
+    "name": "Dr. Mohammed Bernier",
+    "specialty": "ENT Specialist",
+    "location": "Bangalore, West Bengal",
+    "distance": 14,
+    "queueStatus": 1,
+    "estimatedWaitTime": "27 mins",
+    "ratings": 4.224308048107659,
+    "availableSlots": [
+      "03:15 pm",
+      "03:27 am",
+      "02:48 am",
+      "03:51 pm"
+    ]
+  },
+  {
+    "id": "1ac10cb6-837d-43b8-bb35-64178b98aec1",
+    "name": "Dr. Margaretta Hirthe",
+    "specialty": "Pediatrician",
+    "location": "Kolkata, Tamil Nadu",
+    "distance": 14,
+    "queueStatus": 8,
+    "estimatedWaitTime": "28 mins",
+    "ratings": 3.5325189461173636,
+    "availableSlots": [
+      "12:43 am",
+      "02:28 pm",
+      "04:45 pm",
+      "02:14 am"
+    ]
+  },
+  {
+    "id": "b3c51e30-1314-462e-af68-f92e187a627d",
+    "name": "Dr. Linnie Stark",
+    "specialty": "Gynecologist",
+    "location": "Mumbai, Delhi NCR",
+    "distance": 11,
+    "queueStatus": 5,
+    "estimatedWaitTime": "11 mins",
+    "ratings": 4.651865732457371,
+    "availableSlots": [
+      "01:07 am",
+      "01:44 pm",
+      "06:29 am",
+      "04:03 pm"
+    ]
+  },
+  {
+    "id": "302b5bc8-3da9-4240-842a-1edec1ec146b",
+    "name": "Dr. Pat Hilll",
+    "specialty": "Neurologist",
+    "location": "Pune, Gujarat",
+    "distance": 10,
+    "queueStatus": 4,
+    "estimatedWaitTime": "27 mins",
+    "ratings": 3.7278179192593353,
+    "availableSlots": [
+      "09:37 am",
+      "01:23 am",
+      "09:45 am",
+      "03:17 pm"
+    ]
+  },
+  {
+    "id": "538754ee-4cf3-4e2e-a17b-da21a8034074",
+    "name": "Dr. Murphy Erdman",
+    "specialty": "Neurologist",
+    "location": "Jaipur, Tamil Nadu",
+    "distance": 2,
+    "queueStatus": 6,
+    "estimatedWaitTime": "19 mins",
+    "ratings": 4.878542568925305,
+    "availableSlots": [
+      "05:06 am",
+      "08:10 pm",
+      "10:24 am",
+      "05:21 pm"
+    ]
+  },
+  {
+    "id": "314c5623-1495-439e-919e-12462a65ecaa",
+    "name": "Dr. Maximilian Ward",
+    "specialty": "Gynecologist",
+    "location": "Mumbai, Telangana",
+    "distance": 15,
+    "queueStatus": 5,
+    "estimatedWaitTime": "6 mins",
+    "ratings": 3.947692217340413,
+    "availableSlots": [
+      "02:36 pm",
+      "03:07 am",
+      "09:21 am",
+      "12:40 am"
+    ]
+  },
+  {
+    "id": "048e37cb-aadd-4d41-89cf-c19f2edb65d9",
+    "name": "Dr. Thaddeus Shanahan",
+    "specialty": "Cardiologist",
+    "location": "Pune, West Bengal",
+    "distance": 10,
+    "queueStatus": 10,
+    "estimatedWaitTime": "24 mins",
+    "ratings": 3.7459107172304718,
+    "availableSlots": [
+      "07:33 am",
+      "07:44 am",
+      "07:10 pm",
+      "09:15 am"
+    ]
+  },
+  {
+    "id": "d3c357cd-3f9a-45f0-a84b-7891ab2ec912",
+    "name": "Dr. Eleanora Jakubowski",
+    "specialty": "Gynecologist",
+    "location": "Chennai, Telangana",
+    "distance": 12,
+    "queueStatus": 10,
+    "estimatedWaitTime": "7 mins",
+    "ratings": 3.880037086704591,
+    "availableSlots": [
+      "11:40 pm",
+      "11:21 am",
+      "06:00 am",
+      "10:28 pm"
+    ]
+  },
+  {
+    "id": "3b29d826-b3f6-4092-a763-cfd7e8facbe9",
+    "name": "Dr. Rey Lakin",
+    "specialty": "Dermatologist",
+    "location": "Bangalore, West Bengal",
+    "distance": 13,
+    "queueStatus": 3,
+    "estimatedWaitTime": "27 mins",
+    "ratings": 4.470351697480623,
+    "availableSlots": [
+      "03:40 am",
+      "10:38 am",
+      "06:56 pm",
+      "06:43 pm"
+    ]
+  }
+]
